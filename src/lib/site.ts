@@ -8,7 +8,7 @@ export const site = {
   rbiRegistration:
     "RBI Registration No. B-05.05626 dated 17 Oct 2003, issued under Section 45-IA of the RBI Act, 1934",
   grievanceEmail: "grievance@bmwfininvest.com",
-  supportEmail: "support@bmwfininvest.com",
+  supportEmail: "support@sunayanacommercialfininvest.com",
   supportPhone: "+91 9958940148",
   rbiCmsUrl: "https://cms.rbi.org.in",
   sachetUrl: "https://sachet.rbi.org.in",
