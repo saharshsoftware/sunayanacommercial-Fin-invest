@@ -21,14 +21,14 @@ export function Header() {
         >
           <Image
             src="/Sunayana Commercial Fin-Invest Logo.png"
-            alt="BMW Fin-Invest"
+            alt="Sunayana Commercial Fin-Invest"
             width={87}
             height={40}
             className="h-11 w-auto shrink-0"
             priority
           />
           <span className="truncate font-display text-base font-bold tracking-tight text-navy">
-            BMW Fin-Invest
+            Sunayana Commercial Fin-Invest
           </span>
         </Link>
 

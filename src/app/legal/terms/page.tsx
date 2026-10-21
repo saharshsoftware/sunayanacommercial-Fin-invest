@@ -7,7 +7,7 @@ import { site, lspNames } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Terms & Conditions",
   description:
-    "Terms and conditions governing use of the BMW Fin-Invest Private Limited informational website.",
+    "Terms and conditions governing use of the Sunayana Commercial Fin-Invest Private Limited informational website.",
 };
 
 export default function TermsPage() {

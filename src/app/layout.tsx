@@ -19,10 +19,10 @@ const manrope = Manrope({
 
 export const metadata: Metadata = {
   title: {
-    default: "BMW Fin-Invest | RBI Registered NBFC",
-    template: "%s | BMW Fin-Invest",
+    default: "Sunayana Commercial Fin-Invest | RBI Registered NBFC",
+    template: "%s | Sunayana Commercial Fin-Invest",
   },
-  description: `BMW Fin-Invest is an RBI-registered NBFC lending through its digital lending partners, ${lspNames}.`,
+  description: `Sunayana Commercial Fin-Invest is an RBI-registered NBFC lending through its digital lending partners, ${lspNames}.`,
 };
 
 export default function RootLayout({

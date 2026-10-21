@@ -12,7 +12,7 @@ export function Footer() {
             <div className="flex items-center gap-3">
               <Image
                 src="/Sunayana Commercial Fin-Invest Logo.png"
-                alt="BMW Fin-Invest"
+                alt="Sunayana Commercial Fin-Invest"
                 width={87}
                 height={40}
                 className="h-9 w-auto shrink-0 rounded-md bg-white px-2.5 py-2"

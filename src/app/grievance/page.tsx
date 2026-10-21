@@ -7,7 +7,7 @@ import { site } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Grievance Redressal",
   description:
-    "How to raise a complaint with BMW Fin-Invest and the escalation path via the RBI Complaint Management System and Sachet Portal.",
+    "How to raise a complaint with Sunayana Commercial Fin-Invest and the escalation path via the RBI Complaint Management System and Sachet Portal.",
 };
 
 const steps = [

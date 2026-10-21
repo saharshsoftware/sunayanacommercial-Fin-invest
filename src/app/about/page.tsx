@@ -7,7 +7,7 @@ import { site, lspNames } from "@/lib/site";
 export const metadata: Metadata = {
   title: "About Us",
   description:
-    "BMW Fin-Invest is an RBI-registered NBFC headquartered in Kolkata, committed to responsible lending, transparency, and regulatory compliance.",
+    "Sunayana Commercial Fin-Invest is an RBI-registered NBFC headquartered in Kolkata, committed to responsible lending, transparency, and regulatory compliance.",
 };
 
 const points = [
@@ -36,7 +36,7 @@ export default function AboutPage() {
     <>
       <PageIntro
         eyebrow="About Us"
-        heading="About BMW Fin-Invest"
+        heading="About Sunayana Commercial Fin-Invest"
         lede="An RBI-registered Non-Banking Financial Company built on responsible lending and regulatory discipline."
       />
 

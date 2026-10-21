@@ -8,7 +8,7 @@ import { site, lspNames } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Our LSPs",
   description:
-    "ZapCash is the digital lending partner engaged by BMW Fin-Invest for customer acquisition and loan servicing.",
+    "ZapCash is the digital lending partner engaged by Sunayana Commercial Fin-Invest for customer acquisition and loan servicing.",
 };
 
 export default function OurLspPage() {
@@ -17,7 +17,7 @@ export default function OurLspPage() {
       <PageIntro
         eyebrow="Lending Service Providers"
         heading="Our Digital Lending Partners"
-        lede="BMW Fin-Invest works with digital lending partners to reach and service customers online."
+        lede="Sunayana Commercial Fin-Invest works with digital lending partners to reach and service customers online."
       />
 
       <section className="bg-background">
@@ -71,9 +71,9 @@ export default function OurLspPage() {
           </div>
 
           <p className="mx-auto mt-8 max-w-2xl text-center text-sm leading-relaxed text-grey">
-            {lspNames} are engaged by BMW Fin-Invest as its Lending Service
+            {lspNames} are engaged by Sunayana Commercial Fin-Invest as its Lending Service
             Providers (LSPs) for customer acquisition and loan servicing.
-            BMW Fin-Invest remains the sole Regulated Entity and lender of
+            Sunayana Commercial Fin-Invest remains the sole Regulated Entity and lender of
             record; neither partner lends on its own account.
           </p>
 

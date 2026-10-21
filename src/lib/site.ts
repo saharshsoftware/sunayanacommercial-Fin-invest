@@ -1,6 +1,6 @@
 export const site = {
-  brandName: "BMW Fin-Invest",
-  legalName: "BMW FIN-INVEST PRIVATE LIMITED",
+  brandName: "Sunayana Commercial Fin-Invest",
+  legalName: "Sunayana Commercial FIN-INVEST PRIVATE LIMITED",
   registeredOffice:
     "10th Floor, Poddar Point, Block-A, 113, Park Street, Kolkata – 700016",
   gstin: "10AADCS5140D1Z3",
