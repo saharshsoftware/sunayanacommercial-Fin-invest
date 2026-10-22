@@ -3,7 +3,7 @@ export const site = {
   legalName: "Sunayana Commercial FIN-INVEST PRIVATE LIMITED",
   registeredOffice:
     "10th Floor, Poddar Point, Block-A, 113, Park Street, Kolkata – 700016",
-  gstin: "10AADCS5140D1Z3",
+  // gstin: "", // Add the GSTIN once obtained, then restore the footer display.
   rbiRegistrationNumber: "N-05.06707 dated 17 Oct 2003",
   rbiRegistration:
     "RBI Registration No. N-05.06707 dated 17 Oct 2003, issued under Section 45-IA of the RBI Act, 1934",
@@ -12,12 +12,13 @@ export const site = {
   supportPhone: "+91 9958940148",
   rbiCmsUrl: "https://cms.rbi.org.in",
   sachetUrl: "https://sachet.rbi.org.in",
-  gro: {
-    name: "Sumit Rajan",
-    designation: "Grievance Redressal Officer",
-    email: "grievance@sunyanacommercialfininvest.com",
-    phone: "7665466546",
-  },
+  // Restore alongside the officer details on the grievance page when ready.
+  // gro: {
+  //   name: "Sumit Rajan",
+  //   designation: "Grievance Redressal Officer",
+  //   email: "grievance@sunyanacommercialfininvest.com",
+  //   phone: "7665466546",
+  // },
   lsps: [
     {
       name: "ZapCash",

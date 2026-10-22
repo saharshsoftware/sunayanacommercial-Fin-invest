@@ -18,6 +18,10 @@ const manrope = Manrope({
 });
 
 export const metadata: Metadata = {
+  icons: {
+    icon: "/favicon.ico?v=sunayana-logo-1",
+    shortcut: "/favicon.ico?v=sunayana-logo-1",
+  },
   title: {
     default: "Sunayana Commercial Fin-Invest | RBI Registered NBFC",
     template: "%s | Sunayana Commercial Fin-Invest",
