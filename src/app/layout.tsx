@@ -19,8 +19,17 @@ const manrope = Manrope({
 
 export const metadata: Metadata = {
   icons: {
-    icon: "/favicon.ico?v=sunayana-logo-1",
-    shortcut: "/favicon.ico?v=sunayana-logo-1",
+    icon: {
+      url: "/icons/sunayana-logo-v2.png",
+      type: "image/png",
+      sizes: "512x512",
+    },
+    shortcut: "/icons/sunayana-logo-v2.png",
+    apple: {
+      url: "/icons/sunayana-apple-v2.png",
+      sizes: "180x180",
+      type: "image/png",
+    },
   },
   title: {
     default: "Sunayana Commercial Fin-Invest | RBI Registered NBFC",
