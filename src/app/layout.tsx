@@ -18,13 +18,43 @@ const manrope = Manrope({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(
+    process.env.NEXT_PUBLIC_SITE_URL ??
+      "https://sunayanacommercial-fin-invest.vercel.app",
+  ),
+  openGraph: {
+    type: "website",
+    siteName: "Sunayana Commercial Fin-Invest",
+    title: "Sunayana Commercial Fin-Invest | RBI Registered NBFC",
+    description: `Sunayana Commercial Fin-Invest is an RBI-registered NBFC lending through its digital lending partners, ${lspNames}.`,
+    images: [
+      {
+        url: "/icons/sunayana-logo-v2.png",
+        width: 512,
+        height: 512,
+        alt: "Sunayana Commercial Fin-Invest logo",
+        type: "image/png",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary",
+    title: "Sunayana Commercial Fin-Invest | RBI Registered NBFC",
+    description: `Sunayana Commercial Fin-Invest is an RBI-registered NBFC lending through its digital lending partners, ${lspNames}.`,
+    images: [
+      {
+        url: "/icons/sunayana-logo-v2.png",
+        alt: "Sunayana Commercial Fin-Invest logo",
+      },
+    ],
+  },
   icons: {
-    icon: {
-      url: "/icons/sunayana-logo-v2.png",
-      type: "image/png",
-      sizes: "512x512",
-    },
-    shortcut: "/icons/sunayana-logo-v2.png",
+    icon: [
+      { url: "/icons/sunayana-32-v3.png", type: "image/png", sizes: "32x32" },
+      { url: "/icons/sunayana-48-v3.png", type: "image/png", sizes: "48x48" },
+      { url: "/icons/sunayana-logo-v2.png", type: "image/png", sizes: "512x512" },
+    ],
+    shortcut: "/favicon.ico?v=3",
     apple: {
       url: "/icons/sunayana-apple-v2.png",
       sizes: "180x180",
