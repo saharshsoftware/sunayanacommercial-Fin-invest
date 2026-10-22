@@ -17,6 +17,10 @@ const manrope = Manrope({
   display: "swap",
 });
 
+// Use the public production asset for every shared URL, including `/`.
+const socialImageUrl =
+  "https://sunayanacommercial-fin-invest.vercel.app/icons/sunayana-logo-v2.png";
+
 export const metadata: Metadata = {
   metadataBase: new URL(
     process.env.NEXT_PUBLIC_SITE_URL ??
@@ -29,7 +33,8 @@ export const metadata: Metadata = {
     description: `Sunayana Commercial Fin-Invest is an RBI-registered NBFC lending through its digital lending partners, ${lspNames}.`,
     images: [
       {
-        url: "/icons/sunayana-logo-v2.png",
+        url: socialImageUrl,
+        secureUrl: socialImageUrl,
         width: 512,
         height: 512,
         alt: "Sunayana Commercial Fin-Invest logo",
@@ -43,7 +48,7 @@ export const metadata: Metadata = {
     description: `Sunayana Commercial Fin-Invest is an RBI-registered NBFC lending through its digital lending partners, ${lspNames}.`,
     images: [
       {
-        url: "/icons/sunayana-logo-v2.png",
+        url: socialImageUrl,
         alt: "Sunayana Commercial Fin-Invest logo",
       },
     ],

@@ -261,8 +261,10 @@ export default function TermsPage() {
               <p>
                 {site.legalName}
                 <br />
+                {/* Restore when the registered office address is finalized.
                 Registered Office: {site.registeredOffice}
                 <br />
+                */}
                 General Inquiries:{" "}
                 <a href={`mailto:${site.supportEmail}`}>{site.supportEmail}</a>
               </p>

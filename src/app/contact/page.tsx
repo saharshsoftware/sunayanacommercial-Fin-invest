@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import { Container } from "@/components/Container";
 import { PageIntro } from "@/components/PageIntro";
-import { MailIcon, MapPinIcon, PhoneIcon } from "@/components/icons";
+import { MailIcon, PhoneIcon } from "@/components/icons";
+// Restore MapPinIcon from @/components/icons with the office card.
 import { site } from "@/lib/site";
 
 export const metadata: Metadata = {
@@ -20,8 +21,9 @@ export default function ContactPage() {
       />
 
       <section className="bg-background">
-        <Container className="grid gap-10 py-16 sm:py-20 lg:grid-cols-2">
-          <div className="space-y-5">
+        <Container className="py-16 sm:py-20">
+          <div className="grid gap-5 sm:grid-cols-2">
+            {/* Restore when the registered office address is finalized.
             <div className="flex items-start gap-4 rounded-2xl border border-hairline bg-surface p-7">
               <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-teal-dim text-teal">
                 <MapPinIcon className="h-5 w-5" />
@@ -35,6 +37,7 @@ export default function ContactPage() {
                 </p>
               </div>
             </div>
+            */}
 
             <div className="flex items-start gap-4 rounded-2xl border border-hairline bg-surface p-7">
               <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-teal-dim text-teal">
@@ -72,6 +75,7 @@ export default function ContactPage() {
 
           </div>
 
+          {/* Restore the map when the registered office address is finalized.
           <div className="overflow-hidden rounded-2xl border border-hairline bg-surface">
             <iframe
               title="Sunayana Commercial Fin-Invest registered office location"
@@ -81,6 +85,7 @@ export default function ContactPage() {
               referrerPolicy="no-referrer-when-downgrade"
             />
           </div>
+          */}
         </Container>
       </section>
     </>

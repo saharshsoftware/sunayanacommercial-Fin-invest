@@ -1,7 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  // Include metadata in the initial HTML for all link-preview clients.
+  htmlLimitedBots: /.*/,
 };
 
 export default nextConfig;
