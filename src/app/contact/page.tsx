@@ -8,7 +8,7 @@ import { site } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Contact",
   description:
-    "Contact Sunayana Commercial Fin-Invest at its Kolkata registered office, by email, or by phone for general inquiries.",
+    "Contact Sunayana Commercial Private Limited at its Kolkata registered office, by email, or by phone for general inquiries.",
 };
 
 export default function ContactPage() {
@@ -78,7 +78,7 @@ export default function ContactPage() {
           {/* Restore the map when the registered office address is finalized.
           <div className="overflow-hidden rounded-2xl border border-hairline bg-surface">
             <iframe
-              title="Sunayana Commercial Fin-Invest registered office location"
+              title="Sunayana Commercial Private Limited registered office location"
               src="https://www.google.com/maps?q=10th+Floor,+Poddar+Point,+113+Park+Street,+Kolkata+700016&output=embed"
               className="h-full min-h-[420px] w-full"
               loading="lazy"

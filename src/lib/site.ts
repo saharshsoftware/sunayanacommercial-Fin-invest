@@ -1,6 +1,6 @@
 export const site = {
-  brandName: "Sunayana Commercial Fin-Invest",
-  legalName: "Sunayana Commercial FIN-INVEST PRIVATE LIMITED",
+  brandName: "Sunayana Commercial Private Limited",
+  legalName: "Sunayana Commercial Private Limited",
   // Restore alongside the address sections once finalized.
   // registeredOffice:
   //   "10th Floor, Poddar Point, Block-A, 113, Park Street, Kolkata – 700016",
@@ -8,8 +8,8 @@ export const site = {
   rbiRegistrationNumber: "N-05.06707 dated 17 Oct 2003",
   rbiRegistration:
     "RBI Registration No. N-05.06707 dated 17 Oct 2003, issued under Section 45-IA of the RBI Act, 1934",
-  grievanceEmail: "grievance@sunyanacommercialfininvest.com",
-  supportEmail: "support@sunayanacommercialfininvest.com",
+  grievanceEmail: "grievance@sunayanacommercial.com",
+  supportEmail: "support@sunayanacommercial.com",
   supportPhone: "+91 9958940148",
   rbiCmsUrl: "https://cms.rbi.org.in",
   sachetUrl: "https://sachet.rbi.org.in",
@@ -17,7 +17,7 @@ export const site = {
   // gro: {
   //   name: "Sumit Rajan",
   //   designation: "Grievance Redressal Officer",
-  //   email: "grievance@sunyanacommercialfininvest.com",
+  //   email: "grievance@sunayanacommercial.com",
   //   phone: "7665466546",
   // },
   lsps: [

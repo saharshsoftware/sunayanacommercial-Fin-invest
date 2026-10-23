@@ -28,28 +28,28 @@ export const metadata: Metadata = {
   ),
   openGraph: {
     type: "website",
-    siteName: "Sunayana Commercial Fin-Invest",
-    title: "Sunayana Commercial Fin-Invest | RBI Registered NBFC",
-    description: `Sunayana Commercial Fin-Invest is an RBI-registered NBFC lending through its digital lending partners, ${lspNames}.`,
+    siteName: "Sunayana Commercial Private Limited",
+    title: "Sunayana Commercial Private Limited | RBI Registered NBFC",
+    description: `Sunayana Commercial Private Limited is an RBI-registered NBFC lending through its digital lending partners, ${lspNames}.`,
     images: [
       {
         url: socialImageUrl,
         secureUrl: socialImageUrl,
         width: 512,
         height: 512,
-        alt: "Sunayana Commercial Fin-Invest logo",
+        alt: "Sunayana Commercial Private Limited logo",
         type: "image/png",
       },
     ],
   },
   twitter: {
     card: "summary",
-    title: "Sunayana Commercial Fin-Invest | RBI Registered NBFC",
-    description: `Sunayana Commercial Fin-Invest is an RBI-registered NBFC lending through its digital lending partners, ${lspNames}.`,
+    title: "Sunayana Commercial Private Limited | RBI Registered NBFC",
+    description: `Sunayana Commercial Private Limited is an RBI-registered NBFC lending through its digital lending partners, ${lspNames}.`,
     images: [
       {
         url: socialImageUrl,
-        alt: "Sunayana Commercial Fin-Invest logo",
+        alt: "Sunayana Commercial Private Limited logo",
       },
     ],
   },
@@ -67,10 +67,10 @@ export const metadata: Metadata = {
     },
   },
   title: {
-    default: "Sunayana Commercial Fin-Invest | RBI Registered NBFC",
-    template: "%s | Sunayana Commercial Fin-Invest",
+    default: "Sunayana Commercial Private Limited | RBI Registered NBFC",
+    template: "%s | Sunayana Commercial Private Limited",
   },
-  description: `Sunayana Commercial Fin-Invest is an RBI-registered NBFC lending through its digital lending partners, ${lspNames}.`,
+  description: `Sunayana Commercial Private Limited is an RBI-registered NBFC lending through its digital lending partners, ${lspNames}.`,
 };
 
 export default function RootLayout({

@@ -19,8 +19,8 @@ import { site, lspNames } from "@/lib/site";
 import { faqs } from "@/lib/faqs";
 
 export const metadata: Metadata = {
-  title: "Sunayana Commercial Fin-Invest | RBI Registered NBFC",
-  description: `Sunayana Commercial Fin-Invest is an RBI-registered NBFC lending through its digital lending partners, ${lspNames}, built on transparency and regulatory compliance.`,
+  title: "Sunayana Commercial Private Limited | RBI Registered NBFC",
+  description: `Sunayana Commercial Private Limited is an RBI-registered NBFC lending through its digital lending partners, ${lspNames}, built on transparency and regulatory compliance.`,
 };
 
 const trustItems = ["RBI Registered", "GST Registered", "Secure & Compliant"];
@@ -30,7 +30,7 @@ const whyChooseUs = [
     icon: ShieldIcon,
     title: "RBI-Regulated Lender",
     description:
-      "Sunayana Commercial Fin-Invest is the registered NBFC and lender of record behind every loan, so there is always a regulated entity accountable to you.",
+      "Sunayana Commercial Private Limited is the registered NBFC and lender of record behind every loan, so there is always a regulated entity accountable to you.",
   },
   {
     icon: ClockIcon,
@@ -84,7 +84,7 @@ export default function HomePage() {
               Empowering Your Financial Journey
             </h1>
             <p className="mt-6 max-w-xl text-lg leading-relaxed text-grey">
-              Sunayana Commercial Fin-Invest is an RBI-registered Non-Banking Financial
+              Sunayana Commercial Private Limited is an RBI-registered Non-Banking Financial
               Company (NBFC), built on a commitment to transparency,
               security, and regulatory compliance.
             </p>
@@ -124,7 +124,7 @@ export default function HomePage() {
               About Us
             </p>
             <h2 className="mt-3 font-display text-2xl font-bold tracking-tight text-navy sm:text-3xl">
-              About Sunayana Commercial Fin-Invest
+              About Sunayana Commercial Private Limited
             </h2>
             <p className="mt-4 text-base leading-relaxed text-text">
               {site.brandName}
@@ -153,7 +153,7 @@ export default function HomePage() {
               Why Choose Us
             </p>
             <h2 className="mt-3 font-display text-2xl font-bold tracking-tight text-navy sm:text-3xl">
-              Why Choose Sunayana Commercial Fin-Invest
+              Why Choose Sunayana Commercial Private Limited
             </h2>
           </div>
 
@@ -192,7 +192,7 @@ export default function HomePage() {
             </h2>
             <p className="mt-3 text-sm leading-relaxed text-grey">
               Every loan is originated and serviced through our digital
-              lending partners, {lspNames}, with Sunayana Commercial Fin-Invest as the
+              lending partners, {lspNames}, with Sunayana Commercial Private Limited as the
               Regulated Entity and lender of record.
             </p>
           </div>

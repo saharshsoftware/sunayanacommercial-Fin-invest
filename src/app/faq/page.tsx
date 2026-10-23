@@ -7,7 +7,7 @@ import { lspNames } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "FAQ",
-  description: `Answers to common questions about loans serviced through ${lspNames}, with Sunayana Commercial Fin-Invest as the RBI-registered lender of record.`,
+  description: `Answers to common questions about loans serviced through ${lspNames}, with Sunayana Commercial Private Limited as the RBI-registered lender of record.`,
 };
 
 export default function FaqPage() {
@@ -16,7 +16,7 @@ export default function FaqPage() {
       <PageIntro
         eyebrow="FAQ"
         heading="Frequently Asked Questions"
-        lede={`Loan origination and servicing happens on our lending partners' platforms. Sunayana Commercial Fin-Invest is the RBI-registered lender of record.`}
+        lede={`Loan origination and servicing happens on our lending partners' platforms. Sunayana Commercial Private Limited is the RBI-registered lender of record.`}
       />
 
       <section className="bg-background">
