@@ -5,9 +5,9 @@ export const site = {
   // registeredOffice:
   //   "10th Floor, Poddar Point, Block-A, 113, Park Street, Kolkata – 700016",
   // gstin: "", // Add the GSTIN once obtained, then restore the footer display.
-  rbiRegistrationNumber: "N-05.06707 dated 17 Oct 2003",
+  rbiRegistrationNumber: "N-05.06707 dated 04 Oct 2007",
   rbiRegistration:
-    "RBI Registration No. N-05.06707 dated 17 Oct 2003, issued under Section 45-IA of the RBI Act, 1934",
+    "RBI Registration No. N-05.06707 dated 04 Oct 2007, issued under Section 45-IA of the RBI Act, 1934",
   grievanceEmail: "grievance@sunayanacommercial.com",
   supportEmail: "support@sunayanacommercial.com",
   supportPhone: "+91 9958940148",
