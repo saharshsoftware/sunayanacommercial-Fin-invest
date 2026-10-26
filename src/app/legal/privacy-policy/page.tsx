@@ -161,12 +161,10 @@ export default function PrivacyPolicyPage() {
                 <br />
                 {site.legalName}
                 <br />
-                {/* Restore when the registered office address is finalized.
                 Registered Office
                 <br />
-                {site.registeredOffice}, West Bengal, India
+                {site.registeredOffice}
                 <br />
-                */}
                 Email
                 <br />
                 <a href={`mailto:${site.supportEmail}`}>

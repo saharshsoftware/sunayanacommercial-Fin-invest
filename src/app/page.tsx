@@ -130,7 +130,7 @@ export default function HomePage() {
               {site.brandName}
               {" "}is a Non-Banking Financial Company registered with
               the Reserve Bank of India, with its registered office in
-              Kolkata. We are committed to responsible lending,
+              Mumbai. We are committed to responsible lending,
               transparent disclosure, and full compliance with the
               RBI&apos;s regulatory requirements for NBFCs.
             </p>

@@ -7,7 +7,7 @@ import { site, lspNames } from "@/lib/site";
 export const metadata: Metadata = {
   title: "About Us",
   description:
-    "Sunayana Commercial Private Limited is an RBI-registered NBFC headquartered in Kolkata, committed to responsible lending, transparency, and regulatory compliance.",
+    "Sunayana Commercial Private Limited is an RBI-registered NBFC headquartered in Mumbai, committed to responsible lending, transparency, and regulatory compliance.",
 };
 
 const points = [
@@ -47,7 +47,7 @@ export default function AboutPage() {
               {site.brandName}
               {" "}is a Non-Banking Financial Company registered with the
               Reserve Bank of India, with its registered office in
-              Kolkata. The company lends through its digital lending
+              Mumbai. The company lends through its digital lending
               partners, {lspNames}, while remaining the sole Regulated
               Entity and lender of record for every loan originated on
               either platform.

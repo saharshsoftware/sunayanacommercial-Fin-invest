@@ -1,9 +1,8 @@
 export const site = {
   brandName: "Sunayana Commercial Private Limited",
   legalName: "Sunayana Commercial Private Limited",
-  // Restore alongside the address sections once finalized.
-  // registeredOffice:
-  //   "10th Floor, Poddar Point, Block-A, 113, Park Street, Kolkata – 700016",
+  registeredOffice:
+    "609, 6th FLOOR, INIZIO, CARDINAL GRACIOUS ROAD, OPP. P AND G PLAZA, ANDHERI (E), Mumbai City, MUMBAI, Maharashtra, India, 400099",
   // gstin: "", // Add the GSTIN once obtained, then restore the footer display.
   rbiRegistrationNumber: "N-05.06707 dated 04 Oct 2007",
   rbiRegistration:

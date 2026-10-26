@@ -21,11 +21,9 @@ export function Footer() {
                 {site.legalName}
               </p>
             </div>
-            {/* Restore when the registered office address is finalized.
             <p className="mt-4 max-w-sm text-sm leading-relaxed text-white/70">
               Registered Office: {site.registeredOffice}
             </p>
-            */}
             {/* Restore once a GSTIN has been obtained and added to site.gstin.
             <p className="mt-3 text-sm text-white/70">GSTIN: {site.gstin}</p>
             */}

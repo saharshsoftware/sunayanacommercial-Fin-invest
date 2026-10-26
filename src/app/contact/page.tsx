@@ -1,14 +1,13 @@
 import type { Metadata } from "next";
 import { Container } from "@/components/Container";
 import { PageIntro } from "@/components/PageIntro";
-import { MailIcon, PhoneIcon } from "@/components/icons";
-// Restore MapPinIcon from @/components/icons with the office card.
+import { MailIcon, MapPinIcon, PhoneIcon } from "@/components/icons";
 import { site } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Contact",
   description:
-    "Contact Sunayana Commercial Private Limited at its Kolkata registered office, by email, or by phone for general inquiries.",
+    "Contact Sunayana Commercial Private Limited at its Mumbai registered office, by email, or by phone for general inquiries.",
 };
 
 export default function ContactPage() {
@@ -17,13 +16,12 @@ export default function ContactPage() {
       <PageIntro
         eyebrow="Contact"
         heading="Get in Touch"
-        lede="Reach us by email or write to our registered office in Kolkata."
+        lede="Reach us by email or write to our registered office in Mumbai."
       />
 
       <section className="bg-background">
         <Container className="py-16 sm:py-20">
           <div className="grid gap-5 sm:grid-cols-2">
-            {/* Restore when the registered office address is finalized.
             <div className="flex items-start gap-4 rounded-2xl border border-hairline bg-surface p-7">
               <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-teal-dim text-teal">
                 <MapPinIcon className="h-5 w-5" />
@@ -37,7 +35,6 @@ export default function ContactPage() {
                 </p>
               </div>
             </div>
-            */}
 
             <div className="flex items-start gap-4 rounded-2xl border border-hairline bg-surface p-7">
               <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-teal-dim text-teal">
@@ -75,17 +72,15 @@ export default function ContactPage() {
 
           </div>
 
-          {/* Restore the map when the registered office address is finalized.
-          <div className="overflow-hidden rounded-2xl border border-hairline bg-surface">
+          <div className="mt-8 overflow-hidden rounded-2xl border border-hairline bg-surface">
             <iframe
               title="Sunayana Commercial Private Limited registered office location"
-              src="https://www.google.com/maps?q=10th+Floor,+Poddar+Point,+113+Park+Street,+Kolkata+700016&output=embed"
+              src={`https://www.google.com/maps?q=${encodeURIComponent(site.registeredOffice)}&output=embed`}
               className="h-full min-h-[420px] w-full"
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
             />
           </div>
-          */}
         </Container>
       </section>
     </>
