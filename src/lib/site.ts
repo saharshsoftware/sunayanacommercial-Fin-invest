@@ -15,6 +15,7 @@ export const site = {
   gro: {
     name: "Purva Dhamale",
     designation: "Grievance Redressal Officer",
+    phone: "+91 87967 47422",
   },
   lsps: [
     {

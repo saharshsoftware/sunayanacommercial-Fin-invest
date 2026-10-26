@@ -141,6 +141,17 @@ export default function GrievancePage() {
                   </a>
                 </dd>
               </div>
+              <div className="flex flex-wrap justify-between gap-2 border-t border-hairline pt-3">
+                <dt className="text-grey">Phone</dt>
+                <dd>
+                  <a
+                    href={`tel:${site.gro.phone.replace(/\s/g, "")}`}
+                    className="font-medium text-teal hover:text-navy"
+                  >
+                    {site.gro.phone}
+                  </a>
+                </dd>
+              </div>
             </dl>
           </div>
         </Container>
