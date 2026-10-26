@@ -1,8 +1,7 @@
 import type { Metadata } from "next";
 import { Container } from "@/components/Container";
 import { PageIntro } from "@/components/PageIntro";
-// Restore alongside the Grievance Redressal Officer details below.
-// import { MailIcon } from "@/components/icons";
+import { MailIcon } from "@/components/icons";
 import { site } from "@/lib/site";
 
 export const metadata: Metadata = {
@@ -113,7 +112,6 @@ export default function GrievancePage() {
             ))}
           </ol>
 
-          {/* Restore when the Grievance Redressal Officer details are ready.
           <div className="mx-auto mt-14 max-w-xl rounded-2xl border border-hairline bg-surface p-8">
             <div className="flex items-center gap-4">
               <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-teal-dim text-teal">
@@ -136,20 +134,15 @@ export default function GrievancePage() {
                 <dt className="text-grey">Email</dt>
                 <dd>
                   <a
-                    href={`mailto:${site.gro.email}`}
+                    href={`mailto:${site.grievanceEmail}`}
                     className="font-medium text-teal hover:text-navy"
                   >
-                    {site.gro.email}
+                    {site.grievanceEmail}
                   </a>
                 </dd>
               </div>
-              <div className="flex flex-wrap justify-between gap-2 border-t border-hairline pt-3">
-                <dt className="text-grey">Phone</dt>
-                <dd className="font-medium text-grey">{site.gro.phone}</dd>
-              </div>
             </dl>
           </div>
-          */}
         </Container>
       </section>
     </>

@@ -12,13 +12,10 @@ export const site = {
   supportPhone: "+91 9958940148",
   rbiCmsUrl: "https://cms.rbi.org.in",
   sachetUrl: "https://sachet.rbi.org.in",
-  // Restore alongside the officer details on the grievance page when ready.
-  // gro: {
-  //   name: "Sumit Rajan",
-  //   designation: "Grievance Redressal Officer",
-  //   email: "grievance@sunayanacommercial.com",
-  //   phone: "7665466546",
-  // },
+  gro: {
+    name: "Purva Dhamale",
+    designation: "Grievance Redressal Officer",
+  },
   lsps: [
     {
       name: "ZapCash",
